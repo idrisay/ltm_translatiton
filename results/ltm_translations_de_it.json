@@ -9,5 +9,104 @@
         "2022-05-18 00:28:57",
         "2022-05-18 00:28:57",
         2
+    ],
+    [
+        2,
+        0,
+        "it_IT",
+        "auth",
+        "password",
+        "La password fornita non è corretta.",
+        "2022-05-18 00:28:57",
+        "2022-05-18 00:28:57",
+        2
+    ],
+    [
+        3,
+        0,
+        "it_IT",
+        "auth",
+        "throttle",
+        "Troppi tentativi di accesso. Riprova tra :secondi secondi.",
+        "2022-05-18 00:28:57",
+        "2022-05-18 00:28:57",
+        2
+    ],
+    [
+        4,
+        0,
+        "it_IT",
+        "auth",
+        "verifyBtn",
+        "Invia di nuovo l'email di verifica.",
+        "2022-05-18 00:28:57",
+        "2022-05-18 00:28:57",
+        2
+    ],
+    [
+        5,
+        0,
+        "it_IT",
+        "auth",
+        "verifyEmailContent",
+        "Grazie per aver creato un account! Puoi per favore verificare questa creazione cliccando sul link che ti abbiamo appena inviato via email? Se non hai ricevuto un'e-mail, saremo lieti di inviartene un'altra.",
+        "2022-05-18 00:28:57",
+        "2022-05-18 00:28:57",
+        2
+    ],
+    [
+        6,
+        0,
+        "it_IT",
+        "auth",
+        "verifyEmailLinkSend",
+        "Un nuovo link di verifica è stato inviato all'indirizzo e-mail fornito durante la registrazione.",
+        "2022-05-18 00:28:57",
+        "2022-05-18 00:28:57",
+        2
+    ],
+    [
+        7,
+        0,
+        "it_IT",
+        "auth",
+        "verifyLogout",
+        "Notifica della partenza",
+        "2022-05-18 00:28:57",
+        "2022-05-18 00:28:57",
+        2
+    ],
+    [
+        8,
+        0,
+        "it_IT",
+        "email",
+        "login_box.header_question",
+        "Non hai ancora effettuato il login a evulpo?",
+        "2022-05-18 00:28:57",
+        "2022-05-17 22:32:55",
+        2
+    ],
+    [
+        9,
+        0,
+        "it_IT",
+        "email",
+        "login_box.username",
+        "Email o nome utente",
+        "2022-05-18 00:28:57",
+        "2022-05-17 22:32:55",
+        2
+    ],
+    [
+        10,
+        0,
+        "it_IT",
+        "email",
+        "login_box.password",
+        "Parola d’ordine",
+        "2022-05-18 00:28:57",
+        "2022-05-18 00:28:57",
+        2
     ]
 ]

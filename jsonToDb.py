@@ -6,7 +6,6 @@ import json
 from datetime import datetime
 now = datetime.now()
 
-
 ## Get env variables
 load_dotenv()
 dbName = os.getenv("DB_NAME")
@@ -16,15 +15,16 @@ dbPassword = os.getenv("DB_PASSWORD")
 dbPort = os.getenv("DB_PORT")
 dbTableName = os.getenv("DB_TABLE")
 newDbTableName = os.getenv("NEW_DB_TABLE")
-dbColumns = os.getenv("DB_COLUMNS_FOR_TRANSLATE")
+fromLang = os.getenv("FROM_LANG")
+toLang = os.getenv("TO_LANG")
 
-newDbTableName = newDbTableName + now.strftime("%H:%M:%S").replace(":", "_", 1000)
+newDbTableName = newDbTableName + '_' + now.strftime("%H:%M:%S").replace(":", "_", 1000) + '_' + fromLang + '_' + toLang
 
 db = mysql.connector.connect(
     host=dbHost, user=dbUser, password=dbPassword, port=dbPort, database=dbName
 )
-
-with open("results.json", "r", encoding="utf-8") as read_file:
+resultPath = 'results/ltm_translations_' + fromLang + '_'+ toLang + '.json'
+with open(resultPath, "r", encoding="utf-8") as read_file:
     tableContent = json.load(read_file)
 
 dbCursor = db.cursor()

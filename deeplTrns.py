@@ -1,6 +1,5 @@
 from dotenv import load_dotenv
 import os
-import mysql.connector
 import json
 import translators as trns
 from datetime import datetime
@@ -18,45 +17,20 @@ dbUser = os.getenv("DB_USER")
 dbPassword = os.getenv("DB_PASSWORD")
 dbPort = os.getenv("DB_PORT")
 dbTableName = os.getenv("DB_TABLE")
-newDbTableName = os.getenv("NEW_DB_TABLE")
 dbColumns = os.getenv("DB_COLUMNS_FOR_TRANSLATE")
 fromLang = os.getenv("FROM_LANG")
 toLang = os.getenv("TO_LANG")
 locale = os.getenv("LOCALE")
 
-deeplTranslator = deepl.Translator(os.getenv("DEEPL_API_KEY"))
+# deeplTranslator = deepl.Translator(os.getenv("DEEPL_API_KEY"))
 
-newDbTableName = newDbTableName + now.strftime("%H:%M:%S").replace(":", "_", 1000)
 dbColumns = dbColumns.split(",")
 columnList = list(map(int, dbColumns))
-
-
-## Get the database table
-# db = mysql.connector.connect(
-#     host=dbHost, user=dbUser, password=dbPassword, port=dbPort, database=dbName
-# )
-
-newDbTableName = newDbTableName + now.strftime("%H:%M:%S").replace(":", "_", 1000)
 
 # with open("ltm_translations_org.json", "r", encoding="utf-8") as read_file:
 orgContentName = 'originalContent/ltm_translations_' + fromLang + '_'+ toLang + '.json'
 with open(orgContentName, "r", encoding="utf-8") as read_file:
     tableContent = json.load(read_file)
-
-# dbCursor = db.cursor()
-tableColumnNumber = len(tableContent[0])
-
-## Write sql query for insert into new database
-# sql = (
-#     """INSERT INTO """
-#     + newDbTableName
-#     + " ("
-#     + ", ".join(dbCursor.column_names)
-#     + ") VALUES "
-#     + "("
-#     + "".join(["%s, " for i in range(tableColumnNumber)])
-#     + ")"
-# ).replace(", )", ")")
 
 ## Get the dictionary
 dictionary = {}
