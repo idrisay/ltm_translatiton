@@ -1,1 +1,19 @@
-{"Diese Kombination aus Zugangsdaten wurde nicht in unserer Datenbank gefunden.": "Questa combinazione di dati di accesso non è stata trovata nel nostro database.", "Das angegebene Passwort ist falsch.": "La password fornita non è corretta.", "Zu viele Loginversuche. Versuchen Sie es bitte in :seconds Sekunden nochmal.": "Troppi tentativi di accesso. Riprova tra :secondi secondi.", "Verifizierungs-E-Mail erneut senden.": "Invia di nuovo l'email di verifica.", "Danke für die Erstellung eines Accounts! Kannst du diese Erstellung bitte verifizieren, indem du auf den Link klickst, den wir dir gerade eben per Mail gesendet haben? Falls du kein Mail bekommen hast, so senden wir dir gerne nochmals eines.": "Grazie per aver creato un account! Puoi per favore verificare questa creazione cliccando sul link che ti abbiamo appena inviato via email? Se non hai ricevuto un'e-mail, saremo lieti di inviartene un'altra.", "Ein neuer Verifizierungslink wurde an die E-Mail-Adresse geschickt, die Sie bei der Registrierung angegeben haben.": "Un nuovo link di verifica è stato inviato all'indirizzo e-mail fornito durante la registrazione.", "Abmelden": "Notifica della partenza", "Noch kein evulpo-Login?": "Non hai ancora effettuato il login a evulpo?", "E-Mail oder Benutzername": "Email o nome utente", "Passwort": "Parola d’ordine"}
+{
+  "Diese Kombination aus Zugangsdaten wurde nicht in unserer Datenbank gefunden.": "Questa combinazione di dati di accesso non è stata trovata nel nostro database.",
+  "Das angegebene Passwort ist falsch.": "La password fornita non è corretta.",
+  "Zu viele Loginversuche. Versuchen Sie es bitte in :seconds Sekunden nochmal.": "Troppi tentativi di accesso. Riprova tra :secondi secondi.",
+  "Verifizierungs-E-Mail erneut senden.": "Invia di nuovo l'email di verifica.",
+  "Danke für die Erstellung eines Accounts! Kannst du diese Erstellung bitte verifizieren, indem du auf den Link klickst, den wir dir gerade eben per Mail gesendet haben? Falls du kein Mail bekommen hast, so senden wir dir gerne nochmals eines.": "Grazie per aver creato un account! Puoi per favore verificare questa creazione cliccando sul link che ti abbiamo appena inviato via email? Se non hai ricevuto un'e-mail, saremo lieti di inviartene un'altra.",
+  "Ein neuer Verifizierungslink wurde an die E-Mail-Adresse geschickt, die Sie bei der Registrierung angegeben haben.": "Un nuovo link di verifica è stato inviato all'indirizzo e-mail fornito durante la registrazione.",
+  "Abmelden": "Notifica della partenza",
+  "Noch kein evulpo-Login?": "Non hai ancora effettuato il login a evulpo?",
+  "E-Mail oder Benutzername": "Email o nome utente",
+  "Passwort": "Parola d’ordine",
+  "add my translation": "aggiungi la mia traduzione",
+  "single.Avatar aktualisiert": "singolo. Avatar aggiornato",
+  "single.Avatar wurde erfolgreich gespeichert.": "singolo. Avatar è stato salvato correttamente.",
+  "single.Admin Panel - LMS - Overview": "singolo. Pannello di amministrazione - LMS - Panoramica",
+  "single.Admin Panel - Overview": "singolo. Pannello di amministrazione - Panoramica",
+  "single.This is a secure area of the application. Please confirm your password before continuing.": "singolo. Questa è un'area sicura dell'applicazione. Conferma la password prima di continuare.",
+  "single.Password": "singolo. Parola d’ordine"
+}
