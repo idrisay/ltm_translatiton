@@ -106,7 +106,7 @@ for index, line in enumerate(tableContent, start=0):
 
 
 ########################
-resultPath = 'result/ltm_translations_' + fromLang + '_'+ toLang + '.json'
+resultPath = 'results/ltm_translations_' + fromLang + '_'+ toLang + '.json'
 with open(resultPath, "w", encoding="utf-8") as write_file:
     json.dump(
         tableContent,
