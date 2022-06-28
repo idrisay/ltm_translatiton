@@ -1,0 +1,112 @@
+[
+    [
+        1,
+        0,
+        "de_CH",
+        "auth",
+        "failed",
+        "Diese Kombination aus Zugangsdaten wurde nicht in unserer Datenbank gefunden.",
+        "2022-05-18 00:28:57",
+        "2022-05-18 00:28:57",
+        2
+    ],
+    [
+        2,
+        0,
+        "de_CH",
+        "auth",
+        "password",
+        "Das angegebene Passwort ist falsch.",
+        "2022-05-18 00:28:57",
+        "2022-05-18 00:28:57",
+        2
+    ],
+    [
+        3,
+        0,
+        "de_CH",
+        "auth",
+        "throttle",
+        "Zu viele Loginversuche. Versuchen Sie es bitte in :seconds Sekunden nochmal.",
+        "2022-05-18 00:28:57",
+        "2022-05-18 00:28:57",
+        2
+    ],
+    [
+        4,
+        0,
+        "de_CH",
+        "auth",
+        "verifyBtn",
+        "Verifizierungs-E-Mail erneut senden.",
+        "2022-05-18 00:28:57",
+        "2022-05-18 00:28:57",
+        2
+    ],
+    [
+        5,
+        0,
+        "de_CH",
+        "auth",
+        "verifyEmailContent",
+        "Danke für die Erstellung eines Accounts! Kannst du diese Erstellung bitte verifizieren, indem du auf den Link klickst, den wir dir gerade eben per Mail gesendet haben? Falls du kein Mail bekommen hast, so senden wir dir gerne nochmals eines.",
+        "2022-05-18 00:28:57",
+        "2022-05-18 00:28:57",
+        2
+    ],
+    [
+        6,
+        0,
+        "de_CH",
+        "auth",
+        "verifyEmailLinkSend",
+        "Ein neuer Verifizierungslink wurde an die E-Mail-Adresse geschickt, die Sie bei der Registrierung angegeben haben.",
+        "2022-05-18 00:28:57",
+        "2022-05-18 00:28:57",
+        2
+    ],
+    [
+        7,
+        0,
+        "de_CH",
+        "auth",
+        "verifyLogout",
+        "Abmelden",
+        "2022-05-18 00:28:57",
+        "2022-05-18 00:28:57",
+        2
+    ],
+    [
+        8,
+        0,
+        "de_CH",
+        "email",
+        "login_box.header_question",
+        "Noch kein evulpo-Login?",
+        "2022-05-18 00:28:57",
+        "2022-05-17 22:32:55",
+        2
+    ],
+    [
+        9,
+        0,
+        "de_CH",
+        "email",
+        "login_box.username",
+        "E-Mail oder Benutzername",
+        "2022-05-18 00:28:57",
+        "2022-05-17 22:32:55",
+        2
+    ],
+    [
+        10,
+        0,
+        "de_CH",
+        "email",
+        "login_box.password",
+        "Passwort",
+        "2022-05-18 00:28:57",
+        "2022-05-18 00:28:57",
+        2
+    ]
+]
