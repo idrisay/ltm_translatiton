@@ -16,6 +16,11 @@ TO_LANG = which lang translate from(it)
 LOCALE = which rows will be translated(it_IT)(condition)
 ```
 
+2. Run ```pip install virtualenv``` to install virtual env package to local.
+3. Run ```virtualenv venv`` to create virtual environment. 
+4. Run ```source venv/bin/activate``` to activate virtual environment.
+5. Run ```pip install -r ./requirements.txt``` to install reuirements. 
+
 2. Run ```py dbToJson.py``` to get all database table to json file. After run this command  will be created a file 
 in ```originalContent```.
 
